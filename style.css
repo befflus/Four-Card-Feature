@@ -36,6 +36,7 @@ strong {
     text-align: center;
 }
 
+
 .tile {
     padding: 20px;
     background-color: white;
@@ -69,4 +70,35 @@ p img {
 
 footer {
     font-size: 0.7em;
+    text-align: center;
+}
+
+@media screen and (min-width: 769px) {
+
+    #content {
+        margin: 70px;
+    }
+    .tiles {
+        display: flex;
+        align-items: center; 
+    }
+
+    .side-left {
+        width: 33.3%;             
+    }
+    
+    .center {
+        display: flex;
+        flex-direction: column;
+        width: 33.3%;
+    }
+
+    .side-right {
+        width: 33.3%;
+    }
+
+    .tile {
+        margin: 30px;
+    }
+    
 }

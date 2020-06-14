@@ -76,7 +76,7 @@ footer {
 @media screen and (min-width: 769px) {
 
     #content {
-        margin: 70px;
+        margin: 30px;
     }
     .tiles {
         display: flex;
@@ -84,7 +84,8 @@ footer {
     }
 
     .side-left {
-        width: 33.3%;             
+        width: 33.3%;
+        margin: 25px;             
     }
     
     .center {
@@ -95,10 +96,15 @@ footer {
 
     .side-right {
         width: 33.3%;
-    }
-
-    .tile {
-        margin: 30px;
+        margin-left: 25px;
     }
     
+}
+
+@media screen and (min-width: 1441px) {
+    #content {
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

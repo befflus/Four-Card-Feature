@@ -1,7 +1,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,200&display=swap');
 
  body {
-    background-color: hsl(0, 0%, 92%);
+    background-color: hsl(0, 0%, 96%);
     color: rgb(100, 100, 100);
     font-family: 'Poppins', sans-serif;   
     margin: 0px;
@@ -12,12 +12,12 @@
 h1 {
     color: hsl(0, 0%, 40%);
     font-weight: 400;
-    font-size: 1.6em;
+    font-size: 2em;
     margin: 0px;
 }
 
 h2 {
-    font-size: 1.6em;
+    font-size: 1.8em;
     margin: 5px;
 }
 
@@ -61,6 +61,16 @@ strong {
 .calculator {
     border-top: 5px solid hsl(212, 86%, 64%);
 }
+
+.tile-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.tile-content img {
+    align-self: flex-end;
+}
+
 
 p img {
     width: 50px;    
